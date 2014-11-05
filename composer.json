@@ -1,0 +1,13 @@
+{
+    "name": "juanma/image_gen",
+    "description": "Testing dynamic image generation",
+    "require": {
+        "imagine/imagine": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Juanma Orta",
+            "email": "juanma.orta@ulabox.com"
+        }
+    ]
+}
