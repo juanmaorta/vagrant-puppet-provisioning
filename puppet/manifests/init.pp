@@ -14,4 +14,4 @@ file { '/var/www/':
 # ssl certs
 # named?
 
-include nginx, sendmail, php5, nodejs, apache2, git, mysql
+include nginx, sendmail, php5, nodejs, apache2, varnish, git, mysql
