@@ -10,7 +10,7 @@ file { '/var/www/':
     ensure => 'directory',
 }
 
-# -nginx, -mysql, -php5-fpm, -php5-cli, -php5-mysql, redis, redis php, apache2, apache mod rewrite, -curl, -gd, -git, composer?, varnish, -sendmail
+# -nginx, -mysql, -php5-fpm, -php5-cli, -php5-mysql, redis, redis php, -apache2, apache mod rewrite, -curl, -gd, -git, -composer, -varnish, -sendmail
 # ssl certs
 # named?
 
