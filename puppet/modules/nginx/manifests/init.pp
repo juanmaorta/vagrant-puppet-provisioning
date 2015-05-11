@@ -8,6 +8,11 @@ class nginx {
     target  => '/vagrant/app',
   }
 
+  file { '/var/www/blog':
+    ensure  => 'link',
+    target  => '/vagrant/blog',
+  }
+
   # Install the nginx package. This relies on apt-get update
   package { 'nginx':
     ensure => 'present',
