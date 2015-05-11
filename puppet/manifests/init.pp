@@ -11,4 +11,4 @@ file { '/var/www/':
 }
 
 
-include nginx, sendmail, php5, git, mysql
+include nginx, sendmail, php5, git, mysql, unzip, wordpress

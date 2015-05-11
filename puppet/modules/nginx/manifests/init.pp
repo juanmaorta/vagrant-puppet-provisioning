@@ -8,9 +8,9 @@ class nginx {
     target  => '/vagrant/app',
   }
 
-  file { '/var/www/blog':
+  file { '/var/www/wordpress':
     ensure  => 'link',
-    target  => '/vagrant/blog',
+    target  => '/vagrant/wordpress',
   }
 
   # Install the nginx package. This relies on apt-get update
