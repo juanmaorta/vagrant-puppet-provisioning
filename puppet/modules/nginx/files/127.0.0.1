@@ -2,12 +2,13 @@
 server {
   listen 80;
   # server_name _;
-  root /var/www/app;
+  root /var/www/blog;
   index index.php;
 
   location / {
     # First attempt to serve request as file, then
     # as directory, then fall back to index.html
+
     try_files $uri /index.php$is_args$args;
 
     # Uncomment to enable naxsi on this location
